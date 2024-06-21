@@ -1,0 +1,8 @@
+.artistImage {
+    width: 150px;           /* Adjust the width as needed */
+    height: 150px;          /* Adjust the height as needed */
+    border-radius: 50%;     /* Make the image circular */
+    object-fit: cover;      /* Ensure the image covers the container */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for better appearance */
+    transition: transform 0.3s ease-in-out;  /* Smooth transform transition for hover effect */
+    }

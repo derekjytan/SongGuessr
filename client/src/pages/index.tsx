@@ -17,13 +17,12 @@ const Index = () => {
         console.error("Error checking authentication:", error)
       }
     }
-
     checkAuth()
   }, [setAuthenticated])
 
   return (
     <div className="bg-white p-6 rounded-lg shadow-md w-full max-w-2xl">
-      <h1 className="text-6xl font-bold mb-6 font-jacquard">SongGuessr</h1>
+      <h1 className="text-6xl font-bold mb-6 font-honk">SongGuessr</h1>
       {authenticated ? (
         <Link href="/top-artists">
           <button className="bg-blue-500 text-white p-2 rounded">

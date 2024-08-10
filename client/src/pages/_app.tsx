@@ -13,6 +13,7 @@ const App = ({ Component, pageProps }: AppProps) => {
   const [currentSong, setCurrentSong] = useState<any>(null);
   const [guess, setGuess] = useState("");
   const [score, setScore] = useState(0);
+  
 
   useEffect(() => {
     const auth = sessionStorage.getItem("authenticated");
